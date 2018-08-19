@@ -19,6 +19,7 @@ class Ceo extends BoardMember{
   constructor(name, training, homeState){
     
   }
+  super.veto();
   hireEmployee(){
     return "Welcome aboard!";
   }
