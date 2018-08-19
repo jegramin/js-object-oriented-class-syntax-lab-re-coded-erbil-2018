@@ -4,9 +4,9 @@ class BoardMember{
     this.homeState = homeState;
     this.training = training;
   }
-veto(){returns No, I must disagree}
+veto(){return "No, I must disagree"}
 
-approve — returns You can do that!
+approve(){returns You can do that!}
 
 doCharity — returns I like to help people.
 
