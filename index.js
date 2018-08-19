@@ -21,11 +21,7 @@ class Ceo extends BoardMember{
   }
   
   hireEmployee(){
-    super.veto();
-    super.approve();
-    super.doCharity();
-    super.releasePressStatement();
-    super.sayHi();
     return "Welcome aboard!";
   }
+  
 }
