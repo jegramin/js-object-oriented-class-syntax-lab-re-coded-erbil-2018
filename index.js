@@ -12,5 +12,5 @@ doCharity(){return "I like to help people."}
 
 releasePressStatement(){return "You will see great things from Scuber."}
 
-sayHi(){returns "Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.}
+sayHi(){return `Hi, my name is ${this.name}. I am from <homestate>, and I was trained in ${this.training}.`}
 }
