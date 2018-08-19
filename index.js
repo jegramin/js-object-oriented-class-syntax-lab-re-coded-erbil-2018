@@ -17,9 +17,9 @@ sayHi(){return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I 
 
 class Ceo extends BoardMember{
   constructor(name, training, homeState){
-    
+    super.veto();
   }
-  super.veto();
+  
   hireEmployee(){
     return "Welcome aboard!";
   }
